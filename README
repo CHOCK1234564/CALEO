@@ -1,0 +1,15 @@
+Github est utilisé par grand nombre de développeur en équipe.
+En effet il permet de developper en même temps, et de savoir ce qui a été modifié.
+De plus le versionning se fait automatiquement.
+
+il est preferable d'utiliser les lignes de commande (git shell).
+se mettre sur le répertoire.
+
+pour récupérer le répertoire qui a sur le repo:
+	-git pull origin master
+
+pour mettre sa version sur le repo :
+	-git commit -a -m "nom de la modif"
+	-git push origin master
+	
+Sachant qu'il est trés fortement conseillé d'effectuer un "pull" pour récupérer les modifications et de tester avant de fair un "push".
